@@ -80,6 +80,7 @@ Each file is uploaded separately in sequence. If one file fails, already-uploade
 ## Troubleshooting
 
 - **“Connect Google Drive first”**: the URL placeholder in `script.js` has not been replaced with a valid `/exec` URL.
+- **File appears in Drive but the page stays on “Uploading”**: update the Apps Script response code, then use **Deploy → Manage deployments → Edit** and deploy a new version. The response must post to the top-level page so the website can receive the upload confirmation.
 - **No response from Apps Script**: check that the deployment is active, the URL ends in `/exec`, and access is set to Anyone.
 - **Storage is not initialized**: run `setupMagazineStorage()` from the Apps Script editor and authorize it.
 - **Permission error**: redeploy with **Execute as: Me** and confirm the script owner authorized Drive and Sheets.

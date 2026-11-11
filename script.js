@@ -17,7 +17,7 @@ const uploadForm     = document.querySelector("#submission-form");
 const uploadButton   = document.querySelector("#upload-button");
 const uploadStatus   = document.querySelector("#upload-status");
 // Paste the deployed Google Apps Script Web App URL here.
-const uploadEndpoint = "https://script.google.com/macros/s/AKfycbzf4qwLgFfOTpw7Nio4W3ND694Q_M57eYENRWKP3PoVgBT3wk1rOJv0d9xooymjqFS1rg/exec";
+const uploadEndpoint = "https://script.google.com/macros/s/AKfycbz0xrzGItOOvvCj4iwfRRG-OalfIU0FbHpp4WP8sVb6c3m0bBSJBt1v0835SyHXJYo/exec";
 const isUploadConfigured =
     /^https:\/\/script\.google\.com\/macros\/s\/[^/]+\/exec$/.test(uploadEndpoint);
 
