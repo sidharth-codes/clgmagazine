@@ -1,0 +1,186 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#2F554A">
+    <title>Geck Union Magazine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- Original split screen -->
+        <div class="left">
+            <div class="left-line"></div>
+        </div>
+
+        <div class="right">
+            <div class="right-line"></div>
+        </div>
+
+        <main class="page-content" aria-live="polite">
+            <section class="content-section home-page is-active" data-page="home">
+                <div class="page-art home-art">
+                    <figure class="photo-placeholder hero-photo">
+                        <span class="photo-index">01 / THE HUMAN STORY</span>
+                        <span class="photo-caption">A portrait, a perspective,<br>a story still unfolding.</span>
+                        <span class="photo-note">Editorial photo goes here</span>
+                    </figure>
+                    <figure class="photo-placeholder small-photo">
+                        <span class="photo-index">02 / STUDENT VOICES</span>
+                        <span class="photo-note">Add a candid photo</span>
+                    </figure>
+                </div>
+                <div class="page-copy">
+                    <p class="eyebrow">Geck Union · The annual theme</p>
+                    <h1>Unlearn<br><span class="title-light">Beyond the Mold</span></h1>
+                    <p class="theme-tagline">Beyond the grades, beyond the gender: every mind, every struggle, every voice.</p>
+                    <p class="page-description">Question the rules we inherit. Make room for honest stories about well-being, equality, identity, and a future beyond expectations.</p>
+                    <a class="page-cta" href="#theme" data-page-link="theme" data-theme="cream">Explore the theme <span aria-hidden="true">→</span></a>
+                </div>
+            </section>
+
+            <section class="content-section theme-page" data-page="theme" hidden>
+                <div class="page-art theme-art">
+                    <div class="photo-stack">
+                        <figure class="photo-placeholder theme-photo-main">
+                            <span class="photo-index">A SPACE FOR EVERY VOICE</span>
+                            <span class="photo-note">Place a student portrait or<br>editorial image here</span>
+                        </figure>
+                        <figure class="photo-placeholder theme-photo-small">
+                            <span class="photo-index">IN THE IN-BETWEEN</span>
+                        </figure>
+                    </div>
+                    <span class="art-caption">The stories that don't fit in a box.</span>
+                </div>
+                <div class="page-copy theme-copy">
+                    <p class="eyebrow">This year's theme · <span id="slide-count">01 / 04</span></p>
+                    <div class="theme-slides" aria-live="polite">
+                        <article class="theme-slide is-current" data-slide="0">
+                            <h1>Unlearn<br>Beyond the Mold</h1>
+                            <p class="slide-kicker">01 — Every voice belongs</p>
+                            <p class="page-description">No one should have to fit a box to prove their worth. Look beyond grades, gender, background, and labels to the full human being behind them.</p>
+                        </article>
+                        <article class="theme-slide" data-slide="1" hidden>
+                            <h1>Well-being<br>without conditions</h1>
+                            <p class="slide-kicker">02 — More than a score</p>
+                            <p class="page-description">Anxiety, burnout, and fear of failure are part of many student stories. Imagine learning spaces where asking for help is met with care, and self-worth is not measured by productivity.</p>
+                        </article>
+                        <article class="theme-slide" data-slide="2" hidden>
+                            <h1>Question<br>the system</h1>
+                            <p class="slide-kicker">03 — Fairness takes attention</p>
+                            <p class="page-description">Explore the pressures and barriers around exams, coaching, opportunity, and belonging. Ask who a system serves, whose voice is missing, and how students can make change.</p>
+                        </article>
+                        <article class="theme-slide" data-slide="3" hidden>
+                            <h1>Become<br>your own answer</h1>
+                            <p class="slide-kicker">04 — A life beyond the expected</p>
+                            <p class="page-description">Share the unfinished work of becoming: identity, boundaries, healing, new ideas, and the questions that help us see ourselves and our changing world differently.</p>
+                        </article>
+                    </div>
+                    <div class="slide-controls" aria-label="Theme slides">
+                        <button class="slide-arrow" type="button" data-slide-direction="-1" aria-label="Previous theme slide">←</button>
+                        <div class="slide-dots">
+                            <button type="button" class="slide-dot is-current" data-slide-to="0" aria-label="Go to slide 1" aria-current="true"></button>
+                            <button type="button" class="slide-dot" data-slide-to="1" aria-label="Go to slide 2"></button>
+                            <button type="button" class="slide-dot" data-slide-to="2" aria-label="Go to slide 3"></button>
+                            <button type="button" class="slide-dot" data-slide-to="3" aria-label="Go to slide 4"></button>
+                        </div>
+                        <button class="slide-arrow" type="button" data-slide-direction="1" aria-label="Next theme slide">→</button>
+                    </div>
+                    <a class="text-link" href="#submit" data-page-link="submit" data-theme="green">Have a story to share? Submit it <span aria-hidden="true">↗</span></a>
+                </div>
+            </section>
+
+            <section class="content-section" data-page="about" hidden>
+                <div class="page-art">
+                    <p class="art-quote">“Curiosity is where every new perspective begins.”</p>
+                </div>
+                <div class="page-copy">
+                    <p class="eyebrow">About Geck Union</p>
+                    <h1>Room to<br>Think Differently</h1>
+                    <p class="page-description">Geck Union is a student-led space for exploring ideas, sharing perspectives, and finding inspiration in the things that make us curious.</p>
+                </div>
+            </section>
+
+            <section class="content-section submit-page" data-page="submit" hidden>
+                <div class="page-art submit-art">
+                    <figure class="photo-placeholder submit-photo">
+                        <span class="photo-index">YOUR WORK, YOUR WORDS</span>
+                        <span class="photo-caption">The next story<br>could be yours.</span>
+                        <span class="photo-note">Optional submission artwork</span>
+                    </figure>
+                </div>
+                <div class="page-copy submit-copy">
+                    <p class="eyebrow">Open call · Student submissions</p>
+                    <h1>Make room<br>for your voice.</h1>
+                    <p class="page-description">Essays, poems, reflections, and creative work are welcome. Choose your files or drop them below.</p>
+                    <form class="upload-form" id="submission-form">
+                        <label class="field-label" for="author-name">Your name</label>
+                        <input id="author-name" name="authorName" type="text" autocomplete="name" required placeholder="Name">
+                        <label class="field-label" for="submission-title">Submission title <span>(optional)</span></label>
+                        <input id="submission-title" name="title" type="text" placeholder="Give your work a title">
+                        <label class="drop-zone" id="drop-zone" for="submission-files">
+                            <span class="upload-icon" aria-hidden="true">↑</span>
+                            <strong>Drop your work here</strong>
+                            <span>or <span class="browse-link">browse files</span></span>
+                            <small>DOC, DOCX, PDF, TXT, RTF, JPG or PNG · up to 20 MB each</small>
+                            <input id="submission-files" name="files" type="file" accept=".doc,.docx,.pdf,.txt,.rtf,.jpg,.jpeg,.png" multiple>
+                        </label>
+                        <ul class="file-list" id="file-list" aria-live="polite"></ul>
+                        <button class="page-cta upload-button" id="upload-button" type="submit" disabled>Choose files to continue <span aria-hidden="true">→</span></button>
+                        <p class="upload-status" id="upload-status" role="status">Submission upload is being set up. You can select files now; delivery will be enabled when the magazine backend is connected.</p>
+                    </form>
+                </div>
+            </section>
+
+            <section class="content-section" data-page="about" hidden>
+                <div class="page-art">
+                    <p class="art-quote">A canvas for students by students.<br>Read. Create. Question.</p>
+                </div>
+                <div class="page-copy">
+                    <p class="eyebrow">About Geck Union</p>
+                    <h1>Ideas Made<br>to Be Shared</h1>
+                    <p class="page-description">Geck Union is a student-led space for exploring ideas, sharing perspectives, and finding inspiration in the things that make us curious.</p>
+                </div>
+            </section>
+        </main>
+
+
+        <!-- Navbar -->
+        <nav class="navbar">
+
+            <div class="logo" role="button" tabindex="0" aria-label="Return to the initial screen">
+                <img src="logo.png" alt="Logo">
+            </div>
+            <span class="brand-name">Geck Union</span>
+
+            <div class="nav-items">
+
+                <!-- Green background text -->
+                <ul class="nav-green">
+                    <li><a href="#home" data-page-link="home" data-theme="cream">Home</a></li>
+                    <li><a href="#theme" data-page-link="theme" data-theme="cream">Theme</a></li>
+                    <li><a href="#submit" data-page-link="submit" data-theme="green">Submit</a></li>
+                    <li><a href="#about" data-page-link="about" data-theme="cream">About</a></li>
+                </ul>
+
+                <!-- Cream background text -->
+                <ul class="nav-cream">
+                    <li><a href="#home" data-page-link="home" data-theme="cream">Home</a></li>
+                    <li><a href="#theme" data-page-link="theme" data-theme="cream">Theme</a></li>
+                    <li><a href="#submit" data-page-link="submit" data-theme="green">Submit</a></li>
+                    <li><a href="#about" data-page-link="about" data-theme="cream">About</a></li>
+                </ul>
+
+            </div>
+
+        </nav>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
