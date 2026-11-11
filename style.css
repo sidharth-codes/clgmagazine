@@ -1156,6 +1156,10 @@ body {
         padding-bottom: 34px;
     }
 
+    .home-page .page-copy {
+        background-color: var(--CREAM);
+    }
+
     .page-copy h1,
     .theme-slide h1 {
         font-size: clamp(32px, 9vw, 48px);
